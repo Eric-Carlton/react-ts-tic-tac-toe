@@ -1,0 +1,31 @@
+{
+  "name": "react-ts-tic-tac-toe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts-ts": "2.14.0"
+  },
+  "scripts": {
+    "start": "npm run install-hooks && react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "prettier": "prettier --write './src/**/*.{js,jsx,ts,tsx,css}'",
+    "install-hooks": "cp hooks/* .git/hooks"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/node": "^9.6.2",
+    "@types/react": "^16.3.5",
+    "@types/react-dom": "^16.0.4",
+    "cp-cli": "^1.1.1",
+    "prettier": "^1.11.1",
+    "tslint-config-prettier": "^1.10.0",
+    "typescript": "^2.8.1"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
