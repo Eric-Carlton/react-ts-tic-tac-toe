@@ -1,4 +1,4 @@
-export function highlightSquares(squares: Array<number> = []) {
+export function highlightSquares(squares: number[] = []) {
   squares.forEach(square => {
     const toHighlight = document.querySelectorAll('.square')[square];
 
